@@ -24,7 +24,7 @@
 <br>
 <h3> Desktop Projec </h3>
 <br>
-<img src="https://github.com/Ricardocrvg19/DesafioJkP/blob/main/Desktop-jkp.png?raw=true" alt="desktop">
+<img src="https://github.com/Ricardocrvg19/DesafioJkP/blob/main/desktop-jkp-atlz.png?raw=true" alt="desktop">
 <br>
 <br>
 <h2> SEE MORE ON <a href="https://www.linkedin.com/in/ricardo-martins-r2730/">My-Linkedin</a>:sunglasses:</h2>
