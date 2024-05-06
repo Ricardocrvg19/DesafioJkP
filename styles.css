@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    
+
     background: transparent;
     border: 2px solid;
     backdrop-filter: blur(3px);
@@ -64,4 +64,14 @@ button:hover {
 
 .opponent-score span {
     color: red;
+}
+
+.atlz span {
+    color: #26fd05;
+}
+
+.atlz {
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
 }

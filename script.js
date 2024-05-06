@@ -49,6 +49,9 @@ const GAME_NUMBERS = {
 const result = document.querySelector("#result")
 const ourScore = document.querySelector("#our-score")
 const machineScore = document.querySelector("#machine-score")
+const yourChoice = document.querySelector("#your-choice")
+const machineChoice = document.querySelector("#machine-choice")
+
 
 let ourScoreNumber = 0
 let machineScoreNumber = 0
@@ -72,6 +75,8 @@ const timeToPlay = (human, machine) => {
 
     if (human === machine) {
         result.src = "./assets/teste-image.jpg"
+        yourChoice.innerHTML = human 
+        machineChoice.innerHTML = machine 
     } else if (
         (human === GAME_NUMBERS.ROCK && machine === GAME_NUMBERS.SCISSORS) ||
         (human === GAME_NUMBERS.PAPER && machine === GAME_NUMBERS.ROCK) ||
@@ -80,9 +85,15 @@ const timeToPlay = (human, machine) => {
         ourScoreNumber++
         ourScore.innerHTML = ourScoreNumber
         result.src = "./assets/teste-image-ganhou.jpg"
+        yourChoice.innerHTML = human
+        machineChoice.innerHTML = machine
     } else {
         machineScoreNumber++
         machineScore.innerHTML = machineScoreNumber
         result.src = "./assets/teste-image-3.jpg"
+        yourChoice.innerHTML = human
+        machineChoice.innerHTML = machine
+        
     }
+
 }
