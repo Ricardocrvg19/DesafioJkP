@@ -2,9 +2,9 @@
 <br>
 <a href="#mission"> Mission </a>  
 <br>
-<a href="#technologies">  Technologies applied </a> 
+<a href="#technologies">  Technologies Applied </a> 
 <br>
-<a href="#desktop"> Desktop image </a>
+<a href="#desktop"> Desktop Image </a>
 <br>
 <a href="https://jokenpomaluco.netlify.app/"> Project <a/>
 <br>
@@ -32,7 +32,7 @@
 </h4>
 <br>
 <br>
-<h3 id="desktop"> Desktop image </h3>
+<h3 id="desktop"> Desktop Image </h3>
 <br>
 <img src="https://github.com/Ricardocrvg19/DesafioJkP/blob/main/desktop-jkp-atlz.png?raw=true" alt="desktop">
 <br>
